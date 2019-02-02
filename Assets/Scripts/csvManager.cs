@@ -33,7 +33,7 @@ public class csvManager : MonoBehaviour
             for (int j = 0; j < cols.Length; ++j)
             {
                 csvData[i, j] = cols[j];
-                Debug.Log ("(" + i + "," + j + ") = " + csvData [i, j]);
+                //Debug.Log ("(" + i + "," + j + ") = " + csvData [i, j]);
             }
         }
 
